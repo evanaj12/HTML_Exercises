@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>canvas practice</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="./doodle.js"></script>
+
+</head>
+<body onload="init();">
+
+
+<center>
+
+
+<h2>Canvas Doodle</h2>
+<br>
+<canvas id="doodle" width="640" height="480" style="border: solid 1px black;">
+Your browser does not support the Canvas element.
+</canvas>
+<br><br>
+
+	<table>
+
+<tr><td colspan="4"><center>	<input type="button" id="clear" value="Clear"
+	onclick="ctx.clearRect(0,0,640,480);">
+	</center></td></tr>
+
+<tr><td colspan="2"><center>	<input type="button" id="larger" value="Bigger"
+	onclick="radius+=3;">
+	</center></td>
+
+	<td colspan="1.5"><center>	<input type="button" id="smaller" value="Smaller"
+	onclick="radius+=-3;">
+	</center></td></tr>
+
+<tr><td>	<input type="button" id="black" value="Black"
+	onclick='color="black";'>
+</td>
+<td>	<input type="button" id="blue" value="Blue"
+	onclick='color="blue";'>
+</td>
+<td>	<input type="button" id="red" value="Red"
+	onclick='color="red";'>
+</td>
+<td>	<input type="button" id="green" value="Green"
+	onclick='color="green";'>
+</td></tr>
+</table>
+</center>
+
+</body>
+</html>

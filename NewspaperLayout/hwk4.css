@@ -1,0 +1,308 @@
+/* hwk4.css
+   The Daily Clarion css
+   Evan Johnston
+   27 Sept. 2014
+*/
+
+html{
+ margin: 1px;
+ padding: 1px;
+}
+
+body{
+ min-height:1600px;
+ max-height:1600px;
+ max-width:1000px;
+ min-width:1000px;
+ position: absolute;
+ left: 100px;
+}
+
+.head{
+ border: 3px dotted black;
+ position: absolute;
+ top: 0px;
+ max-height:100px;
+ min-height:100px;
+ max-width:1000px;
+ min-width:1000px;
+ text-align: center;
+ font-family: Georgia, serif;
+ line-height: 100%;
+}
+
+.foot{
+ border-top: 3px dotted black;
+ border-bottom: 3px dotted black;
+ position: absolute;
+ bottom: 0px;
+ max-height:40px;
+ min-height:40px;
+ max-width:100%;
+ min-width:100%;
+ text-align: center;
+ letter-spacing: 3px;
+}
+
+.nav{
+ border-left: 10px double black;
+ padding-left: 10px;
+ position: absolute;
+ top: 110px;
+ left: 0px;
+ max-height:560px;
+ min-height:560px;
+ max-width:130px;
+ min-width:130px;
+ line-height:400%;
+ font-family: arial black, serif;
+ letter-spacing: 1px;
+}
+
+a:link{
+ color: black;
+ text-decoration: none;
+}
+
+a:visited{
+ color: black;
+ text-decoration: none;
+}
+
+a:hover{
+ text-decoration: underline;
+}
+
+.adCol{
+ position: absolute;
+ top: 110px;
+ right: 0px;
+ max-height:1150px;
+ min-height:1150px;
+ max-width:150px;
+ min-width:150px;
+}
+
+figure{
+ margin: 0px;
+}
+
+img{
+ border: 2px solid black;
+}
+
+figcaption{
+ font-family: Lucida Grande, sans-serif;
+ font-size: 10px;
+}
+
+.body{
+ position: absolute;
+ top: 100px;
+ right: 150px;
+ max-height:1450px;
+ min-height:1450px;
+ max-width:700px;
+ min-width:700px;
+}
+
+.main_left{
+ position: absolute;
+ top: 0px;
+ left: 10px;
+ max-height:600px;
+ min-height:600px;
+ max-width:260px;
+ min-width:260px;
+}
+
+.main_right{
+ position: absolute;
+ top: 8px;
+ right: 8px;
+ max-height:600px;
+ min-height:600px;
+ max-width:420px;
+ min-width:420px;
+}
+
+.headlines{
+ position: absolute;
+ top: 600px;
+ right: 0px;
+ max-height:845px;
+ min-height:845px;
+ max-width:700px;
+ min-width:700px;
+ line-height: 125%;
+ word-spacing: 2px;
+}
+
+.head1{
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ max-height:850px;
+ min-height:850px;
+ max-width:233px;
+ min-width:233px;
+}
+
+.National{
+ margin-right: 10px;
+ top:0px;
+ left:0px;
+ max-height:283px;
+ min-height:283px;
+ max-width:210px;
+ min-width:210px;
+}
+
+.International{
+ margin-right: 10px;
+ position: absolute;
+ top:283px;
+ left:0px;
+ max-height:283.66px;
+ min-height:283.66px;
+ max-width:210px;
+ min-width:210px;
+}
+
+.Metro{
+ margin-right: 10px;
+ position: absolute;
+ left:0px;
+ bottom:0px;
+ max-height:283px;
+ min-height:283px;
+ max-width:210px;
+ min-width:210px;
+}
+
+.head2{
+ position: absolute;
+ top: 0px;
+ right: 214px;
+ max-height:850px;
+ min-height:850px;
+ max-width:233.66px;
+ min-width:233.66px;
+}
+
+.Business{
+ position: absolute;
+ top: 0px;
+ left:0px;
+ max-height:283px;
+ min-height:283px;
+ max-width:210px;
+ min-width:210px;
+}
+
+.Sports{
+ position: absolute;
+ top: 283px;
+ left:0px;
+ max-height:283.66px;
+ min-height:283.66px;
+ max-width:210px;
+ min-width:210px;
+}
+
+.Arts{
+ position: absolute;
+ bottom: 0px;
+ left:0px;
+ max-height:283px;
+ min-height:283px;
+ max-width:210px;
+ min-width:210px;
+}
+
+.head3{
+ position: absolute;
+ top: 0px;
+ right: 5px;
+ max-height:850px;
+ min-height:850px;
+ max-width:233px;
+ min-width:233px;
+}
+
+.Editorials{
+ position: absolute;
+ top:0px;
+ right:0px;
+ max-height:283px;
+ min-height:283px;
+ max-width:210px;
+ min-width:210px;
+}
+
+.Opinions{
+ position: absolute;
+ top: 283px;
+ right:0px;
+ max-height:567.32px;
+ min-height:567.32px;
+ max-width:210px;
+ min-width:210px;
+}
+
+h1{
+ font-size: 60px;
+ margin-bottom: 0px;
+ padding-bottom: 20px;
+ margin-top: 25px;
+}
+
+.date{
+ font-size: 14px;
+ font-family: Lucida Grande, sans-serif;
+ letter-spacing: 10px;
+ word-spacing: 15px;
+ position: absolute;
+ left: 227px;
+}
+
+h2{
+ text-align: center;
+ margin-top: 2px;
+ margin-bottom: 2px;
+ font-family: arial black, serif;
+ letter-spacing: 2px;
+ font-size:22px;
+}
+
+h3{
+ border-left:2px solid black;
+ padding-left: 4px; 
+ font-family: Georgia, serif;
+ margin-bottom: 4px;
+ letter-spacing: 2px;
+ font-size: 25px;
+}
+
+h4{
+ text-align: center;
+ margin-top: 2px;
+ margin-bottom: 2px;
+ font-family: arial black, serif;
+ letter-spacing: 2px;
+ font-size:14px;
+}
+
+p{
+ font-family: Lucida Grande, sans-serif;
+ font-size: 12px;
+}
+
+dl{
+ font-family: Lucida Grande, sans-serif;
+ font-size: 12px;
+}
+
+
+
+
